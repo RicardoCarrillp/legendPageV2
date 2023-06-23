@@ -3,12 +3,11 @@
   .logo {
     padding: 5px;
     padding-top: 2rem;
-    svg {
-      background-image: url("../../../assets/img/legend.png");
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
-    }
+
+    background-image: url("../../../assets/img/legend.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   .logoBlack {
     padding: 5px;
@@ -89,19 +88,19 @@
   color: rgba(111, 88, 42, 0.9);
 }
 
-@media (width<1000px) {
-  svg {
-    background-image: url("../../../assets/img/legend.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  svg.svgwave {
-    width: 100%;
-    height: 90vh;
-    overflow: visible;
-  }
-}
+// @media (width<1000px) {
+//   svg {
+//     background-image: url("../../../assets/img/legend.png");
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     background-position: center;
+//   }
+//   svg.svgwave {
+//     width: 100%;
+//     height: 90vh;
+//     overflow: visible;
+//   }
+// }
 
 svg.svgwave {
   width: 100%;

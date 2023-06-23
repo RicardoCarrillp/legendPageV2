@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { SquaresData } from 'src/app/global/squaresData';
+import { SquaresData } from 'src/app/utils/squaresData';
 
 @Component({
   selector: 'app-squares',
