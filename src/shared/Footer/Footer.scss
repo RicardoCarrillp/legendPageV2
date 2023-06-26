@@ -1,0 +1,79 @@
+.footer-container {
+  padding: 70px 33px 55px;
+  background-color: #000;
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  align-items: center;
+  .routing {
+    display: flex;
+    gap: 1em;
+    a {
+      text-decoration: none;
+      font-weight: bold;
+      color: red;
+      font-family: proxima-nova;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 9.75px;
+      letter-spacing: 0.2em;
+      line-height: 1.5em;
+      text-transform: uppercase;
+    }
+  }
+  .rsss {
+    &:hover > a {
+      opacity: 0.4;
+    }
+
+    a {
+      color: #fff;
+      -webkit-transition: opacity 0.5s ease, background-color 0.5s ease;
+      transition: opacity 0.5s ease, background-color 0.5s ease;
+      border-radius: 50%;
+      &:hover {
+        opacity: 1;
+      }
+    }
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    img{
+        width: 20px;
+        fill: white;
+    }
+  }
+
+  .main-link {
+    text-decoration: none;
+    color: red;
+    border-bottom: solid 1px red;
+    opacity: 1;
+    transition: opacity 0.2s;
+  }
+
+  .main-link:hover {
+    opacity: 0.4;
+  }
+
+  h2 {
+    font-family: roc-grotesk-extrawide;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    letter-spacing: 0.075em;
+    line-height: 1.4em;
+    text-transform: uppercase;
+  }
+}
+
+.white-icon {
+  fill: white;
+  width: 20px;
+}
+
+.mat-icon {
+  font-size: 20px;
+}

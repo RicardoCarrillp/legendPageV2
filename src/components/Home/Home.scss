@@ -1,0 +1,92 @@
+.react-parallax-bgimage {
+    top: 15%;
+    height: 69vh !important;
+    width: 100vw !important;
+}
+
+.container {
+
+
+    .backgoundParallaxRed {
+        padding: 0px 5px 0px 5px;
+        height: 100vh;
+        background-color: red;
+    }
+    .backgoundParallaxBlack {
+        padding: 0px 5px 0px 5px;
+        height: 100vh;
+        background-color: black;
+    }
+
+    video {
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .video-wrapper {
+        height: 100vh;
+        background-color: red;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .header {
+            position: relative;
+
+            img {
+                width: 100%;
+                z-index: 2;
+            }
+        }
+    }
+
+    .squares a.squares-link .inside-square:hover {
+        h2 {
+            font-weight: 800;
+        }
+
+        opacity: 0.9;
+        transition: opacity 200ms ease 0s;
+    }
+
+    .squares {
+        height: 100vh;
+        background: black;
+        display: grid;
+        grid-template-columns: repeat(3, 4fr);
+        position: relative;
+
+        .squares-link {
+            text-decoration: none;
+            background-color: white;
+
+            .inside-square {
+                height: 325px;
+                display: flex;
+                padding-left: 7vw;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                align-items: center;
+
+                h2 {
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: 700;
+                    font-style: normal;
+                    font-size: 10px;
+                    letter-spacing: 0.2em;
+                    line-height: 3em;
+                    text-transform: uppercase;
+                    color: red;
+                }
+            }
+        }
+    }
+}
