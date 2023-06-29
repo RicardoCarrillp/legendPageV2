@@ -18,7 +18,11 @@
       font-size: 9.75px;
       letter-spacing: 0.2em;
       line-height: 1.5em;
-      text-transform: uppercase;
+      transition: opacity 0.4s ease;
+      opacity: 1;
+    }
+    a:hover {
+      opacity: 0.5;
     }
   }
   .rsss {
@@ -40,9 +44,9 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    img{
-        width: 20px;
-        fill: white;
+    img {
+      width: 20px;
+      fill: white;
     }
   }
 

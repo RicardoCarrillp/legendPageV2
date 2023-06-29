@@ -38,15 +38,9 @@ const Footer = () => {
           </a>
         </div>
         <div className="routing">
-          <span>
-            <a href="#s">CONTACT</a>
-          </span>
-          <span>
-            <a href="#s">FAQ</a>
-          </span>
-          <span>
-            <a href="#s">BLOG</a>
-          </span>
+          <a href="#s">CONTACT</a>
+          <a href="#s">FAQ</a>
+          <a href="#s">BLOG</a>
         </div>
       </div>
     </>

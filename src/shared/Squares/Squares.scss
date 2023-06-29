@@ -1,42 +1,42 @@
-  .squares a.squares-link .inside-square:hover {
-      h2 {
-          font-weight: 800;
-      }
+.squares a.squares-link .inside-square:hover {
+    h2 {
+        font-weight: 800;
+    }
 
-      opacity: 0.9;
-      transition: opacity 200ms ease 0s;
-  }
+    opacity: 0.9;
+    transition: opacity 200ms ease 0s;
+}
 
-  .squares {
-      height: 100vh;
-      background: black;
-      display: grid;
-      grid-template-columns: repeat(3, 4fr);
-      position: relative;
+.squares {
+    height: 100vh;
+    background: black;
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    position: relative;
 
-      .squares-link {
-          text-decoration: none;
-          background-color: white;
+    .squares-link {
+        text-decoration: none;
+        background-color: black;
 
-          .inside-square {
-              height: 325px;
-              display: flex;
-              padding-left: 7vw;
-              background-size: cover;
-              background-repeat: no-repeat;
-              background-position: center;
-              align-items: center;
+        .inside-square {
+            height: 50vh;
+            display: flex;
+            padding-left: 7vw;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            align-items: center;
 
-              h2 {
-                  font-family: Arial, Helvetica, sans-serif;
-                  font-weight: 700;
-                  font-style: normal;
-                  font-size: 10px;
-                  letter-spacing: 0.2em;
-                  line-height: 3em;
-                  text-transform: uppercase;
-                  color: red;
-              }
-          }
-      }
-  }
+            h2 {
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                font-size: 10px;
+                letter-spacing: 0.2em;
+                line-height: 3em;
+                text-transform: uppercase;
+                color: red;
+            }
+        }
+    }
+}
